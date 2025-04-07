@@ -1,7 +1,3 @@
-Here's a clean and professional `README.md` in English, without emojis, suitable for your GitHub project based on the provided Elixir module:
-
----
-
 # WalkieTokie
 
 **WalkieTokie** is a simple peer-to-peer audio transfer system written in Elixir using `GenServer`. It simulates a push-to-talk (walkie-talkie) interaction over a distributed Elixir node network.
