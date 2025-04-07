@@ -1,4 +1,4 @@
-defmodule QuicP2p.MixProject do
+defmodule WalkieTokie.MixProject do
   use Mix.Project
 
   def project do
@@ -15,7 +15,7 @@ defmodule QuicP2p.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {QuicP2p.Application, []}
+      mod: {WalkieTokie.Application, []}
     ]
   end
 

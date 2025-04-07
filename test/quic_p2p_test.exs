@@ -1,8 +1,8 @@
-defmodule QuicP2pTest do
+defmodule WalkieTokieTest do
   use ExUnit.Case
-  doctest QuicP2p
+  doctest WalkieTokie
 
   test "greets the world" do
-    assert QuicP2p.hello() == :world
+    assert WalkieTokie.hello() == :world
   end
 end

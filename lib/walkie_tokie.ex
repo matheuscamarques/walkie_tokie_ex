@@ -1,6 +1,6 @@
 defmodule WalkieTokie do
   @moduledoc """
-  Documentation for `QuicP2p`.
+  Documentation for `WalkieTokie`.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule WalkieTokie do
 
   ## Examples
 
-      iex> QuicP2p.hello()
+      iex> WalkieTokie.hello()
       :world
 
   """

@@ -8,14 +8,14 @@ defmodule WalkieTokie.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      # Starts a worker by calling: QuicP2p.Worker.start_link(arg)
-      # {QuicP2p.Worker, arg}
+      # Starts a worker by calling: WalkieTokie.Worker.start_link(arg)
+      # {WalkieTokie.Worker, arg}
       WalkieTokie.Receiver,
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
-    opts = [strategy: :one_for_one, name: QuicP2p.Supervisor]
+    opts = [strategy: :one_for_one, name: WalkieTokie.Supervisor]
     Supervisor.start_link(children, opts)
   end
 end
